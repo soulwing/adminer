@@ -1,6 +1,6 @@
 FROM adminer as base
 
-FROM php:7.2-apache-stretch
+FROM php:7.4-apache
 
 STOPSIGNAL SIGINT
 
